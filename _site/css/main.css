@@ -408,3 +408,18 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+
+.post-buttons {
+  list-style-type: none;
+}
+
+.post-pinit {
+  margin-top: -87px; 
+  margin-left: 350px;
+}
+
+.post-tweet {
+  margin-top: -87px;
+  margin-left: 300px;
+  width: 100px;  
+}
