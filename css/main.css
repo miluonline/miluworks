@@ -423,3 +423,27 @@ a:visited { color: #205caa; }
   margin-left: 300px;
   width: 100px;  
 }
+
+/* --- SELF EDITS --- */
+.site-header{
+  background-color: cadetblue
+} 
+.site-footer{
+  background-color: cadetblue
+}
+.site-nav .page-link{
+  color:black;
+}
+.milu-header{
+  width: 100%;
+position: fixed;
+top: 0px;
+}
+
+.page-content{
+  background-color: lightgray
+}
+
+.milu-footer-email{
+  color: black;
+}
