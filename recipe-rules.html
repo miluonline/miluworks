@@ -7,6 +7,13 @@
     "image": "//img[@id='imgPhoto']/@src",
     "mixingredients": "yes"
   },
+  "m.allrecipes.com": {
+    "name": "//h1",
+    "desc": "//div[@class='user']/p",
+    "ingredients": "//span[contains(@class,'recipe-ingred_txt')]",
+    "instructions": "//h2[.='Directions']/../ol/li/span",
+    "image": "//img[contains(@class,'rec-image-thumb')]/@src"
+  },  
   "www.foodnetwork.com": {
     "name": "//h1",
     "desc": "//h1",
