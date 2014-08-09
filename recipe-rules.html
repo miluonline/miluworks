@@ -4,7 +4,8 @@
     "desc": "//span[@id='lblDescription']",
     "ingredients": "//li[@id='liIngredient']/label/p/span",
     "instructions": "//div[@class='directions']/div/ol/li/span",
-    "image": "//img[@id='imgPhoto']/@src"
+    "image": "//img[@id='imgPhoto']/@src",
+    "mixingredients": "yes"
   },
   "www.foodnetwork.com": {
     "name": "//h1",
@@ -16,8 +17,24 @@
   "www.food.com": {
     "name": "//h1",
     "desc": "//p[@id='usertextnote']",
-    "ingredients": "//div[@class='pod ingredients']/ul/li",
-    "instructions": "//div[@class='pod directions']/span/ol/li",
-    "image": "//section[@class='single-photo-recipe']/a/img/@src"
+    "ingredients": "//li[@class='ingredient']/span",
+    "instructions": "//div[@class='pod directions']/span/ol/li/div[@class='txt']",
+    "image": "//img[@class='smallPageImage photo']/@src"
+  },
+  "www.chow.com": {
+    "name": "//h1",
+    "desc": "//div[@id='intro_full']/span/p",
+    "ingredients": "//div[@id='ingredients']/ul/li/span",
+    "instructions": "//div[@id='instructions']/ol/li",
+    "image": "//img[@class='recipe_image']/@src",
+    "mixingredients": "yes"    
+  },
+  "www.epicurious.com": {
+    "name": "//h1",
+    "desc": "//h1",
+    "ingredients": "//li[@class='ingredient']/span",
+    "instructions": "//div[@id='preparation']/p",
+    "image": "//span[@id='recipe_image']/img/@src",
+    "mixingredients": "yes"    
   }
 }
