@@ -43,5 +43,33 @@
     "instructions": "//div[@id='preparation']/p",
     "image": "//span[@id='recipe_image']/img/@src",
     "mixingredients": "yes"    
-  }
+  },
+  "www.sailusfood.com": {
+    "name": "//div[@id='content']/div/span/h1",
+    "desc": "//div[@class='entry']/p[1]",
+    "ingredients": "//div[@class='ingredients']/ul/li",
+    "instructions": "//div[@class='directions']/ol/li",
+    "image": "//div[@class='entry']//img/@src"
+  },
+  "vahrehvah.com": {
+    "name": "//span[@class='video-name']",
+    "desc": "//span[@class='video-name']",
+    "ingredients": "//div[@class='recipe-table']/table/tbody/tr",
+    "instructions": "//div[@class='directions']/div/ol/li",
+    "image": "//img[@rel='image_src']/@src"
+  },
+  "www.sanjeevkapoor.com": {
+    "name": "//h1[@id='headingh1']",
+    "desc": "//p[@class='shrtdesc']/span",
+    "ingredients": "//div[@class='ingrdntdiv']/ul/li",
+    "instructions": "//div[@class='Stepsdiv']/span[@itemprop='recipeInstructions']",
+    "image": "//img[@class='recipimg']/@src"
+  },
+  "www.khanapakana.com": {
+    "name": "//div[@class='top-heading']/h1",
+    "desc": "//div[@class='top-heading']/h1",
+    "ingredients": "//h3[.='Ingredients']/../../div/ul/li",
+    "instructions": "//div[@class='order_list']/ol/li/p",
+    "image": "img/@src"
+  }        
 }
